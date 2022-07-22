@@ -1,0 +1,152 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+    color: rgb(50, 70, 90);
+}
+
+.container-page{
+    width: 65%;
+    margin: auto;
+    overflow: auto;
+}
+
+.sec-headers{
+    text-align: center;
+}
+
+.sec-headers p{
+    color: rgba(0,80,160);
+    font-weight: bold;
+}
+
+.sec-headers h1{
+    color: rgb(50, 70, 90);
+}
+
+#header-main{
+    background-color: white;
+    color: rgb(50, 70, 90);
+}
+
+#header-flex{
+    display: flex;
+}
+
+#header-flex-1{
+    flex:1;
+    text-align: left;
+}
+
+#header-flex-2{
+    flex:1;
+    text-align: right;
+}
+
+#navbar-main{
+    background-color: white;
+    color: rgba(0,80,160);
+}
+
+#navbar-main ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar-main li{
+    display: inline;
+}
+
+#navbar-main a{
+    text-decoration: none;
+    color: rgb(50, 70, 90);
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+#navbar-main a:hover{
+    color: rgba(0,80,160);
+    border-bottom: 5px rgba(0,80,160) solid;
+}
+
+#sec-img1{
+    background-color: #efefef;
+}
+
+#sec-velkommen{
+    background-color: white;
+}
+
+#velkommen-flex{
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    border: 3px rgb(50, 70, 90) solid;
+}
+
+#velkommen-flex div{
+    padding: 15px;
+}
+
+#velkommen-flex-1{
+    flex:1;
+}
+
+#velkommen-flex-2{
+    flex:1;
+}
+
+#velkommen-flex-3{
+    flex:1;
+}
+
+.fa-star, .fa-comments-dollar, .fa-shuffle{
+    font-size: 30px;
+    margin: 0 5px;
+    color: rgba(0,80,160);   
+}
+
+#sec-img2{
+    background-color: #efefef;
+}
+
+#sec-produkter{
+    background-color: white;
+}
+
+#sec-img3{
+    background-color: #efefef;
+}
+
+#sec-rådgivning{
+    background-color: white;
+}
+
+#sec-kontakt{
+    background-color: #efefef;
+}
+
+.sec-kontakt-icons .fa-paint-roller, .fa-house, .fa-phone, .fa-paper-plane{
+    font-size: 20px;
+    margin-right: 5px;
+    color: rgba(0,80,160);    
+}
+
+.container-produkter, .container-rådgivning{
+    border: 3px rgb(50, 70, 90) solid;
+}
+
+.ul-produkter, .ul-rådgivning{
+    list-style-type: square;
+}
+
+
+
+
+
