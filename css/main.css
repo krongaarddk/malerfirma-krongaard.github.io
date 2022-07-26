@@ -49,6 +49,10 @@ body{
     text-align: right;
 }
 
+.header-img:hover{
+    cursor: pointer;
+}
+
 #navbar-main{
     background-color: white;
     color: rgba(0,80,160);
