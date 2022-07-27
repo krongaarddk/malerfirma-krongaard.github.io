@@ -104,15 +104,29 @@ body{
 
 #velkommen-flex-1{
     flex:1;
+    transition: 0.3s;
 }
 
 #velkommen-flex-2{
     flex:1;
+    transition: 0.3s;
 }
 
 #velkommen-flex-3{
     flex:1;
+    transition: 0.3s;
 }
+
+#velkommen-flex-1:hover{
+    background-color: rgba(0,80,160,0.1);    
+}
+#velkommen-flex-2:hover{
+    background-color: rgba(0,80,160,0.1);    
+}
+#velkommen-flex-3:hover{
+    background-color: rgba(0,80,160,0.1);    
+}
+
 
 .fa-star, .fa-comments-dollar, .fa-shuffle{
     font-size: 30px;
@@ -127,6 +141,8 @@ body{
 #sec-produkter{
     background-color: white;
 }
+
+
 
 #sec-img3{
     background-color: #efefef;
@@ -148,6 +164,10 @@ body{
 
 .container-produkter, .container-rådgivning{
     border: 3px rgb(50, 70, 90) solid;
+    transition: 0.3s;
+}
+.container-produkter:hover, .container-rådgivning:hover{
+    background-color: rgba(0,80,160,0.1);    
 }
 
 .ul-produkter, .ul-rådgivning{
