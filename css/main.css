@@ -154,6 +154,13 @@ body{
     list-style-type: square;
 }
 
+.footer-info, .footer-info:hover, .footer-info:focus, .footer-info:active{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
 /* SMALL DEVICES */
 @media all and (max-width: 640px){
 
