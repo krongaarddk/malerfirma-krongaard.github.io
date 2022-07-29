@@ -25,19 +25,24 @@
         <div class="container-page">
             <div id="header-flex">
                 <div id="header-flex-1">
-                    <img src="img/logo.png" alt="logo">
+                    <a href="#" onclick="window.location.reload(true);">
+                        <img src="img/logo.png" class="header-img" alt="logo" >
+                    </a>
                 </div>
                 
                 <div id="header-flex-2">
-                    <img src="img/rsz_malermestregaranti.png" alt="malermestregaranti">
+                    <a href="https://enrigtigmaler.dk/" target="_blank">
+                        <img src="img/rsz_malermestregaranti.png" class="header-img" alt="malermestregaranti">
+                    </a>
                 </div>
             </div>
             <h2>Din lokale malermester i Århus og omegn</h2>
         </div>
     </header>
 
+    
+
     <!-- NAVBAR -->
-    <!-- TODO POR-2: Responsive navbar -->
     <nav id="navbar-main">
         <div class="container-page">
             <ul class="ul-navbar" id="navbar-list">
@@ -51,6 +56,16 @@
         </div>
     </nav>
     
+    <!-- NAVBAR -->
+    <!--TODO POR-9: FINISH SIDENAVBAR -->
+    <div id="navbar-sticky-side0" class="navbar-sticky-side">
+        <div class="navbar-sticky-side-items">
+            <a id="navbar-sticky-side-item-1" class="navbar-sticky-side-item" ><i class="fa-solid fa-angles-left"></i><div class="navbar-sticky-side-text">Medlem af Danske Malermestre</div></a>
+            <a id="navbar-sticky-side-item-2" class="navbar-sticky-side-item" ><i class="fa-solid fa-angles-left"></i><div class="navbar-sticky-side-text">Modtag uforpligtende tilbud</div></a>
+            <a id="navbar-sticky-side-item-3" class="navbar-sticky-side-item" ><i class="fa-solid fa-angles-left"></i><div class="navbar-sticky-side-text">Ring eller skriv i dag: 21 77 57 26</div></a>
+        </div>
+    </div> 
+
 
     <!-- SECTION: Image -->
     <!--TODO POR-3: Remove margin bottom -->
@@ -159,10 +174,11 @@
             </div>
             <p>Kontakt os i dag for at modtage et uforpligtende tilbud, som passer præcist til dine behov.</p>
             <div class="sec-kontakt-icons">
-                <p> <i class="fa-solid fa-paint-roller"></i> Malerfirmaet Krongaard </p>
-                <p> <i class="fa-solid fa-house"></i> Engparken 19, 8230 Åbyhøj </p>
-                <p> <i class="fa-solid fa-phone"></i> (+45) 21 77 57 26 </p>
-                <p> <i class="fa-solid fa-paper-plane"></i>krongaard.t@stofanet.dk </p>
+                <p> <i class="fa-solid fa-paint-roller"></i><a href="#" onclick="window.location.reload(true);" class="footer-info">Malerfirmaet Krongaard</a>  </p>
+                <p> <i class="fa-solid fa-house"></i><a href="http://maps.google.com/?q=Engparken 19, 8230 Åbyhøj" target="_blank" class="footer-info">Engparken 19, 8230 Åbyhøj</a></p>
+                <p> <i class="fa-solid fa-phone"></i> <a href="tel:+4521775726" class="footer-info">(+45) 21 77 57 26</a>  </p>
+                <p> <i class="fa-solid fa-paper-plane"></i> <a href="mailto:krongaard.t@stofanet.dk" class="footer-info">krongaard.t@stofanet.dk</a> </p>
+                
             </div>
                 
         </div>
