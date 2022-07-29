@@ -83,6 +83,72 @@ body{
     display: none;
 }
 
+
+.navbar-sticky-side{
+    position: absolute;
+    width: 400px;
+    right: 0px;
+}
+
+.navbar-sticky-side-items{
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+
+.navbar-sticky-side-item{
+    position: absolute;
+    color: rgb(50, 70, 90);
+    text-decoration: none;
+    width: 400px;
+    right: -350px;
+    transition: 0.3s;
+}
+
+#navbar-sticky-side-item-1{
+    top: 0px;
+}
+#navbar-sticky-side-item-2{
+    top: 70px;
+}
+#navbar-sticky-side-item-3{
+    top: 140px;
+}
+
+#navbar-sticky-side-item-1:hover{
+    right: 0px;
+}
+#navbar-sticky-side-item-2:hover{
+    right: 0px;
+}
+#navbar-sticky-side-item-3:hover{
+    right: 0px;
+}
+
+
+.fa-angles-left{
+    font-size: 40px;     
+    margin-left: 10px;
+    margin-right: 10px;   
+}
+.navbar-sticky-side-item div{
+    display: inline-block;
+}
+
+.sticky-1,.sticky-2,.sticky-3{
+    position: fixed;
+}
+
+.navbar-sticky-side-text{
+    background-color: rgb(255, 255, 255,0.8);
+    font-weight: bold;
+    line-height: 0px;
+    position: relative;
+    bottom: 9px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
 #sec-img1{
     background-color: #efefef;
 }
@@ -214,6 +280,10 @@ body{
 .ul-navbar.responsive .navbar-icon{
     display: block;
     border: none;
+}
+
+.navbar-sticky-side{
+    display: none;
 }
 
 }
