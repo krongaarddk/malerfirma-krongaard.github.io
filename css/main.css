@@ -85,14 +85,12 @@ body{
 
 
 .navbar-sticky-side{
-    border: 2px red solid;
     position: absolute;
     width: 400px;
     right: 0px;
 }
 
 .navbar-sticky-side-items{
-    border: 2px yellow solid;
     position: relative;
     overflow: hidden;
     height: 400px;
@@ -100,7 +98,6 @@ body{
 
 .navbar-sticky-side-item{
     position: absolute;
-    border: 2px black solid;
     color: rgb(50, 70, 90);
     text-decoration: none;
     width: 400px;
@@ -143,28 +140,14 @@ body{
 }
 
 .navbar-sticky-side-text{
-    border: 3px red solid;
-
     background-color: rgb(255, 255, 255,0.8);
-
     font-weight: bold;
     line-height: 0px;
-
     position: relative;
     bottom: 9px;
     padding-top: 18px;
     padding-bottom: 18px;
-    
-    
-
 }
-
-
-
-
-
-
-
 
 #sec-img1{
     background-color: #efefef;
@@ -297,6 +280,10 @@ body{
 .ul-navbar.responsive .navbar-icon{
     display: block;
     border: none;
+}
+
+.navbar-sticky-side{
+    display: none;
 }
 
 }
